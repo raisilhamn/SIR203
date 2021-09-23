@@ -20,6 +20,7 @@ public class Tabungan {
     // tugas 1
     public boolean ambilUang(int jumlah){
         if (this.saldo > jumlah) {
+            this.saldo -= jumlah;  
             return true;
         }else{
             return false;
