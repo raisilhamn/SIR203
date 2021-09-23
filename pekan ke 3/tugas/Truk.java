@@ -28,6 +28,20 @@ public class Truk {
         return this.muatanMaks;
     }
 
+    public double newtsToKilo(double berat) {
+        double a;
+        a = this.muatan;
+        a *= 9.8;
+        return a;
+    }
+
+    public double kiloToNewts(double berat) {
+        double a;
+        a = this.muatan / 1000;
+        a /= 9.8;
+        return a;
+    }
+
     public boolean tambahMuatan(double muatanx) {
         double a = this.muatan;
         a += muatanx;
@@ -38,26 +52,6 @@ public class Truk {
 //            System.out.println("tidak bisa menambah beban " + muatanx + " kapasitas penuh");
             return false;
         }
-    }
-
-    public double newtsToKilo(double berat) {
-        double a;
-        a = this.muatan;
-        a *= 9.8;
-        return a;
-    }
-
-    public double kiloToNewts(double berat) {
-        double a;
-        a = this.muatan;
-        if (a != 0) {
-            a /= 9.8;
-            return a;
-        } else {
-            System.out.println("tidak boleh 0");
-            return 0;
-        }
-
     }
 
 }
