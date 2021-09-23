@@ -50,7 +50,7 @@ public class Truk {
     public double kiloToNewts(double berat) {
         double a;
         a = this.muatan;
-        if (a == 0) {
+        if (a != 0) {
             a /= 9.8;
             return a;
         } else {
