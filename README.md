@@ -1,1 +1,2 @@
-# SIR203 |  Pemrograman Berorientasi Obyek (Praktikum) 
+# SIR203
+Pemrograman Berorientasi Obyek (Praktikum) 
