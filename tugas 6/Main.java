@@ -5,6 +5,7 @@ package mingguke6latihan;
  * @author LENOVO
  */
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("Masukkan Identitas dosen 1 : Agus ");
         Dosen dosen1 = new Dosen("Agus");
@@ -18,8 +19,7 @@ public class Main {
         dosen2.Info();
         System.out.println("");
         dosen3.Info();
-        
-        
+
     }
-    
+
 }
