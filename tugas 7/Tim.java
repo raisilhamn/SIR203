@@ -13,7 +13,9 @@ public class Tim {
 
     public void displayFullMember() {
         m.forEach(m -> {
-            m.display();
+            if (m.status == false) {
+                m.display();
+            }
         });
 
     }

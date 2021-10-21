@@ -21,10 +21,5 @@ public class Trainee extends Member{
         super.display();
         System.out.println("Lama training : " + lamaTraining);
     }
-
-    
-    
-    
-    
     
 }
