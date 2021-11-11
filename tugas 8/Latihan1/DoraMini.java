@@ -18,8 +18,4 @@ public class DoraMini extends Robot{
         System.out.println("tahun pembuatan : " + super.tahun);
     }
     
-    
-    
-    
-    
 }
